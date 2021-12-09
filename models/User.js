@@ -1,6 +1,5 @@
 const mongoose = require("mongoose");
 
-ngoose");
 
 const UserSchema = new mongoose.Schema(
   {
@@ -38,4 +37,7 @@ const UserSchema = new mongoose.Schema(
       type: Array,
       default: [],
     },
+    },
+    { timestamps: true }
+
 );
